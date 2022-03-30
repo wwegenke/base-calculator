@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "base-calc",
-    "slug": "base-calc",
-    "version": "1.0.0",
+    "name": "base-calculator",
+    "slug": "base-calculator",
+    "version": "1.0.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3a3a3a"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.warrenwegenke.basecalculator",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.warrenwegenke.basecalculator",
+      "versionCode": 4
     },
     "web": {
       "favicon": "./assets/favicon.png"
