@@ -1,13 +1,13 @@
-import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, View } from 'react-native';
 import Index from './src';
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-        <Index />
-        <StatusBar style="light" />
-    </SafeAreaView>
+    <View style={styles.container}>
+    <Index />
+      <StatusBar style="light" />
+    </View>
   );
 }
 
